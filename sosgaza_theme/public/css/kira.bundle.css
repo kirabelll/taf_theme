@@ -1,0 +1,416 @@
+[data-theme="kira"] {
+  --pink-50: #EBEBD3;
+  --pink-100: #EBEBD3;
+  --pink-200: #F4D35E;
+  --pink-300: #F4D35E;
+  --pink-400: #EE964B;
+  --pink-500: #083D77;
+  --pink-600: #083D77;
+  --pink-700: #083D77;
+  --pink-800: #062B56;
+  --pink-900: #041A35;
+  --rose-50: #EBEBD3;
+  --rose-100: #EBEBD3;
+  --rose-200: #F4D35E;
+  --rose-300: #F4D35E;
+  --rose-400: #EE964B;
+  --rose-500: #083D77;
+  --rose-600: #083D77;
+  --rose-700: #083D77;
+  --rose-800: #062B56;
+  --rose-900: #041A35;
+  --primary-color: #083D77;
+  --background-color: #083D77;
+  --text-muted: var(--pink-400);
+  --text-light: var(--pink-300);
+  --text-color: var(--pink-50);
+  --heading-color: var(--pink-50);
+  --btn-default-bg: var(--pink-700);
+  --btn-default-hover-bg: var(--pink-500);
+  --bg-blue: var(--rose-600);
+  --bg-light-blue: var(--rose-400);
+  --bg-dark-blue: var(--rose-800);
+  --bg-green: #4CAF50;
+  --bg-yellow: #F4D35E;
+  --bg-orange: #EE964B;
+  --bg-red: #F95738;
+  --bg-pink: var(--pink-400);
+  --bg-grey: var(--pink-400);
+  --bg-darkgrey: var(--pink-700);
+  --bg-dark-pink: var(--pink-700);
+  --bg-light-pink: var(--pink-800);
+  --bg-purple: #9C27B0;
+  --bg-pink: var(--pink-700);
+  --bg-cyan: #00BCD4;
+  --text-on-blue: white;
+  --text-on-light-blue: var(--pink-50);
+  --text-on-dark-blue: var(--rose-300);
+  --text-on-green: white;
+  --text-on-yellow: #083D77;
+  --text-on-orange: white;
+  --text-on-red: white;
+  --text-on-pink: var(--pink-50);
+  --text-on-grey: var(--pink-50);
+  --text-on-darkgrey: var(--pink-200);
+  --text-on-dark-pink: var(--pink-200);
+  --text-on-light-pink: var(--pink-100);
+  --text-on-purple: white;
+  --text-on-pink: var(--pink-100);
+  --text-on-cyan: white;
+  --bg-color: var(--pink-900);
+  --fg-color: var(--pink-800);
+  --navbar-bg: var(--pink-800);
+  --fg-hover-color: var(--pink-700);
+  --card-bg: var(--pink-800);
+  --disabled-text-color: var(--pink-400);
+  --disabled-control-bg: var(--pink-700);
+  --control-bg: var(--pink-300);
+  --control-bg-on-pink: var(--pink-800);
+  --awesomebar-focus-bg: var(--control-bg);
+  --awesomplete-hover-bg: var(--pink-300);
+  --modal-bg: var(--pink-700);
+  --toast-bg: var(--modal-bg);
+  --popover-bg: var(--bg-color);
+  --error-bg: #F95738;
+  --error-border: #F95738;
+  --icon-fill: transparent;
+  --icon-stroke: var(--pink-300);
+  --alert-text-danger: #F95738;
+  --alert-text-warning: #F4D35E;
+  --alert-text-info: var(--rose-300);
+  --alert-text-success: #4CAF50;
+  --alert-bg-danger: #8B2635;
+  --alert-bg-warning: #8B7A2E;
+  --alert-bg-info: var(--rose-900);
+  --alert-bg-success: #2E5233;
+  --sidebar-select-color: var(--pink-800);
+  --scrollbar-thumb-color: var(--pink-600);
+  --scrollbar-track-color: var(--pink-700);
+  --shadow-inset: var(--fg-color);
+  --border-color: var(--pink-700);
+  --dark-border-color: var(--pink-600);
+  --table-border-color: var(--pink-600);
+  --highlight-color: var(--pink-700);
+  --yellow-highlight-color: #F4D35E;
+  --btn-group-border-color: var(--pink-800);
+  --highlight-shadow: 1px 1px 10px var(--rose-900), 0px 0px 4px var(--rose-500);
+  --shadow-base: 0px 4px 8px rgba(8, 61, 119, 0.06),
+    0px 0px 4px rgba(8, 61, 119, 0.12);
+  --diff-added: #4CAF50;
+  --diff-removed: #F95738;
+  --input-disabled-bg: none;
+  --checkbox-focus-shadow: 0 0 0 2px var(--pink-600);
+  color-scheme: dark;
+}
+[data-theme="kira"] .chart-container {
+  --charts-label-color: var(--pink-300);
+  --charts-axis-line-color: var(--pink-500);
+  --charts-stroke-width: 5px;
+  --charts-dataset-circle-stroke: #ffffff;
+  --charts-dataset-circle-stroke-width: var(--charts-stroke-width);
+  --charts-tooltip-title: var(--charts-label-color);
+  --charts-tooltip-label: var(--charts-label-color);
+  --charts-tooltip-value: white;
+  --charts-tooltip-bg: var(--pink-900);
+  --charts-legend-label: var(--charts-label-color);
+}
+
+[data-theme="kira"] .heatmap-chart g > rect[fill="#ebedf0"] {
+  fill: var(--pink-700);
+}
+
+[data-theme="kira"] .rating {
+  --star-fill: var(--pink-500);
+}
+
+[data-theme="kira"] .rating .star-hover {
+  --star-fill: var(--pink-400);
+}
+
+[data-theme="kira"] .skeleton {
+  background-color: var(--pink-800);
+}
+
+[data-theme="kira"] ::-moz-selection {
+  color: var(--text-color);
+  background: var(--pink-500);
+}
+
+[data-theme="kira"] ::selection {
+  color: var(--text-color);
+  background: var(--pink-500);
+}
+
+[data-theme="kira"] .indicator {
+  --indicator-dot-blue: var(--bg-blue);
+}
+
+[data-theme="kira"] .indicator {
+  --indicator-dot-light-blue: var(--bg-light-blue);
+}
+
+[data-theme="kira"] .indicator {
+  --indicator-dot-dark-blue: var(--bg-dark-blue);
+}
+
+[data-theme="kira"] .indicator {
+  --indicator-dot-green: var(--bg-green);
+}
+
+[data-theme="kira"] .indicator {
+  --indicator-dot-yellow: var(--bg-yellow);
+}
+
+[data-theme="kira"] .indicator {
+  --indicator-dot-orange: var(--bg-orange);
+}
+
+[data-theme="kira"] .indicator {
+  --indicator-dot-red: var(--bg-red);
+}
+
+[data-theme="kira"] .indicator {
+  --indicator-dot-pink: var(--bg-pink);
+}
+
+[data-theme="kira"] .indicator {
+  --indicator-dot-grey: var(--bg-grey);
+}
+
+[data-theme="kira"] .indicator {
+  --indicator-dot-darkgrey: var(--bg-darkgrey);
+}
+
+[data-theme="kira"] .indicator {
+  --indicator-dot-purple: var(--bg-purple);
+}
+
+[data-theme="kira"] .indicator {
+  --indicator-dot-pink: var(--bg-pink);
+}
+
+[data-theme="kira"] .indicator {
+  --indicator-dot-cyan: var(--bg-cyan);
+}
+
+[data-theme="kira"] .page-form .filter-button.btn-primary-light {
+  color: var(--pink-800);
+}
+/* Ki
+ra Theme Login Layout */
+[data-theme="kira"] .login-page {
+  display: flex;
+  min-height: 100vh;
+  background: #EBEBD3;
+}
+
+[data-theme="kira"] .login-left-section {
+  flex: 1;
+  background: linear-gradient(135deg, #083D77 0%, #0A4A8A 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  clip-path: polygon(0 0, 85% 0, 70% 100%, 0 100%);
+}
+
+[data-theme="kira"] .login-left-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="40" r="0.5" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="80" r="1.5" fill="rgba(255,255,255,0.1)"/></svg>');
+  opacity: 0.3;
+}
+
+[data-theme="kira"] .login-illustration {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 2rem;
+  background: #EBEBD3;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+[data-theme="kira"] .login-illustration::after {
+  content: '👤';
+  font-size: 4rem;
+  color: #083D77;
+}
+
+[data-theme="kira"] .login-left-content {
+  text-align: center;
+  color: #EBEBD3;
+  z-index: 2;
+}
+
+[data-theme="kira"] .login-left-content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #EBEBD3;
+}
+
+[data-theme="kira"] .login-left-content p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  max-width: 300px;
+}
+
+[data-theme="kira"] .login-right-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: #EBEBD3;
+}
+
+[data-theme="kira"] .login-form-container {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 3rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(8, 61, 119, 0.1);
+}
+
+[data-theme="kira"] .login-form-container h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #083D77;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+[data-theme="kira"] .login-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+[data-theme="kira"] .login-form label {
+  display: block;
+  font-weight: 500;
+  color: #083D77;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+[data-theme="kira"] .login-form input[type="email"],
+[data-theme="kira"] .login-form input[type="password"],
+[data-theme="kira"] .login-form input[type="text"] {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border: 2px solid #E5E5E5;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  background: white;
+  color: #083D77;
+}
+
+[data-theme="kira"] .login-form input:focus {
+  outline: none;
+  border-color: #F4D35E;
+  box-shadow: 0 0 0 3px rgba(244, 211, 94, 0.1);
+}
+
+[data-theme="kira"] .login-form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+[data-theme="kira"] .login-form .remember-me {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #083D77;
+}
+
+[data-theme="kira"] .login-form .forgot-password {
+  color: #EE964B;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+[data-theme="kira"] .login-form .forgot-password:hover {
+  color: #F95738;
+}
+
+[data-theme="kira"] .login-btn {
+  width: 100%;
+  padding: 0.875rem;
+  background: #083D77;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1.5rem;
+}
+
+[data-theme="kira"] .login-btn:hover {
+  background: #0A4A8A;
+}
+
+[data-theme="kira"] .login-register-link {
+  text-align: center;
+  color: #083D77;
+  font-size: 0.9rem;
+}
+
+[data-theme="kira"] .login-register-link a {
+  color: #EE964B;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+[data-theme="kira"] .login-register-link a:hover {
+  color: #F95738;
+}
+
+[data-theme="kira"] .login-footer {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.8rem;
+  color: #083D77;
+  opacity: 0.7;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  [data-theme="kira"] .login-page {
+    flex-direction: column;
+  }
+  
+  [data-theme="kira"] .login-left-section {
+    clip-path: none;
+    min-height: 40vh;
+  }
+  
+  [data-theme="kira"] .login-illustration {
+    width: 200px;
+    height: 150px;
+  }
+  
+  [data-theme="kira"] .login-left-content h2 {
+    font-size: 1.5rem;
+  }
+  
+  [data-theme="kira"] .login-form-container {
+    padding: 2rem 1.5rem;
+  }
+}
