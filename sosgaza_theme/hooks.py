@@ -1,10 +1,10 @@
 from . import __version__ as app_version
 
-app_name = "sosgaza_theme"
-app_title = "sosgaza Theme"
-app_publisher = "tahir zaqout"
+app_name = "taf_theme"
+app_title = "taf theme"
+app_publisher = "kirabelll"
 app_description = "multi themes for frappe & erpnext apps"
-app_email = "tahirzaqout8@gmail.com"
+app_email = "kirubelkasahun9@gmail.com"
 app_license = "MIT"
 app_logo_url = "/assets/sosgaza_theme/img/slogo.jpg"
 

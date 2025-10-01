@@ -47,6 +47,11 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
                     name:"crimson",
                     label: "Crimson",
                     info: "Red Sidebar Theme"
+                },
+                 {
+                    name:"kira",
+                    label: "kira",
+                    info: "custom Theme"
                 }
 			];
 

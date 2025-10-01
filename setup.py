@@ -7,11 +7,11 @@ with open("requirements.txt") as f:
 from sosgaza_theme import __version__ as version
 
 setup(
-	name="sosgaza_theme",
+	name="taf_theme",
 	version=version,
 	description="multi themes for frappe & erpnext apps",
-	author="AmeerBaathar",
-	author_email="ameerbaathar18@gmail.com",
+	author="kirabelll",
+	author_email="kirabelkassahun9@gmail.com",
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,

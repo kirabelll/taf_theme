@@ -3,8 +3,8 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "sosgaza Theme",
+			"module_name": "taf Theme",
 			"type": "module",
-			"label": _("sosgaza Theme")
+			"label": _("taf Theme")
 		}
 	]
